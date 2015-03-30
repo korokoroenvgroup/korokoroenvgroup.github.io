@@ -1,0 +1,502 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to the Korokoro Environmental Group</title>
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #D7E699;
+	border-color: #030;
+	border-left-color: #030;
+	border-bottom-color: #030;
+	border-right-color: #030;
+	border-top-color: #030;
+}
+.thrColFixHdr #container {
+	width: 850px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 3px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	color: #002800;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	border-color: #030;
+	outline-color: #FFF;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-top-style: solid;
+	font-style: normal;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-right: 10;
+	border-left: 10;
+} 
+.thrColFixHdr #header {
+	background: #DDDDDD;
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	background-color: #693;
+} 
+.thrColFixHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	color: #E1F592;
+	font-size: 24px;
+}
+.thrColFixHdr #sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 150px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 10px 15px 20px; /* padding keeps the content of the div away from the edges */
+	background-color: #BED75B;
+	outline-color: #FFF;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	border-color: #FFF;
+	border-top-style: solid;
+	border-left-style: none;
+	border-right-style: none;
+}
+.thrColFixHdr #sidebar2 {
+	float: right; /* since this element is floated, a width must be given */
+	width: 160px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 10px 15px 20px; /* padding keeps the content of the div away from the edges */
+	background-color: #8CA628;
+	color: #FFF;
+	border-left-style: solid;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+}
+.thrColFixHdr #mainContent {
+	margin: 0 200px; /* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the sidebar spaces when the content in each sidebar ends. */
+	padding: 0 10px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+} 
+.thrColFixHdr #footer {
+	padding: 0 10px 0 20px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+	background-color: #663;
+} 
+.thrColFixHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.thrColFixHdr #container #header table tr th {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.thrColFixHdr #container #header table tr th {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+.thrColFixHdr #container #header table tr td {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #000;
+}
+.thrColFixHdr #container #header table tr td div p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.thrColFixHdr #container #header table tr td div p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+.thrColFixHdr #container #header table tr th {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #030;
+}
+.thrColFixHdr #container #header table tr th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #527B28;
+	color: #ECF9B7;
+}
+.thrColFixHdr #container #header table tr th div p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#apDiv1 {
+	position:absolute;
+	left:225px;
+	top:140px;
+	width:778px;
+	height:26px;
+	background-color:#036;
+	layer-background-color:#036;
+	border:1px none #000000;
+	z-index:1;
+}
+.thrColFixHdr #container #header table tr th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.thrColFixHdr #container #header table tr th {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #3A581D;
+}
+.thrColFixHdr #container #header div table tr th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-variant: normal;
+	font-stretch: narrower;
+}
+#apDiv2 {
+	position:absolute;
+	left:198px;
+	top:151px;
+	width:845px;
+	height:31px;
+	background-color:#036;
+	layer-background-color:#036;
+	border:1px none #000000;
+	z-index:1;
+}
+a:hover {
+	color: #C00;
+	text-decoration: underline;
+}
+a:link {
+	color: #ECF9B7;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FF9;
+}
+a:active {
+	text-decoration: none;
+	color: #006;
+}
+.thrColFixHdr #container #mainContent p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #030;
+}
+.thrColFixHdr #container #sidebar2 p strong {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.thrColFixHdr #container #sidebar1 p strong {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.thrColFixHdr #container #sidebar2 p strong {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.thrColFixHdr #container #sidebar1 p strong {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.thrColFixHdr #container #sidebar1 p strong {
+	font-family: Arial Black, Gadget, sans-serif;
+}
+.thrColFixHdr #container #sidebar2 p strong {
+	font-family: Arial Black, Gadget, sans-serif;
+}
+.thrColFixHdr #container #header div table tr th div a strong {
+	font-family: Arial Black, Gadget, sans-serif;
+}
+--> 
+</style><!--[if IE 5]>
+<style type="text/css"> 
+/* place css box model fixes for IE 5* in this conditional comment */
+.thrColFixHdr #sidebar1 { width: 180px; }
+.thrColFixHdr #sidebar2 { width: 190px; }
+</style>
+<![endif]--><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.thrColFixHdr #sidebar2, .thrColFixHdr #sidebar1 { padding-top: 30px; }
+.thrColFixHdr #mainContent { zoom: 1; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+
+<body text="#003300" link="#003300" vlink="#003300" alink="#003300" class="thrColFixHdr">
+
+
+<div id="container">
+  <div id="header">
+    <h1 align="justify"><img src="images/keg_logo.jpg" width="99" height="100" /> Korokoro Environmental Group (KEG)
+    <br />
+    </h1>
+    <div align="justify">
+      <table width="817" border="0" align="center" cellpadding="8" cellspacing="1">
+        <tr>
+          <th width="99" scope="col"><div align="center">        <a href="index.html"><strong>HOME </strong></a></div></th>
+          <th width="99" scope="col"><div align="center">        <a href="projects.html">KEG PROJECTS </a></div></th>
+          <th width="101" scope="col"><div align="center">        <a href="news.html">KOROKORO NEWS &amp; UPDATES      </a></div></th>
+          <th width="101" scope="col"><div align="center">        <a href="linkroad.html">PETONE-GRENADA LINK RD </a></div></th>
+          <th width="99" scope="col"><div align="center">        <a href="walkingtracks.html">WALKING TRACKS </a></div></th>
+          <th width="99" scope="col"><div align="center">        <a href="photogallery.html">PHOTO GALLERY </a></div></th>
+          <th width="99" scope="col"><div align="center">        <a href="contact.html">CONTACT US </a></div></th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="sidebar1">
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>
+      <!-- end #sidebar1 -->
+    </p>
+  </div>
+  <div id="sidebar2">
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    <p>
+      <!-- end #sidebar2 -->
+    </p>
+  </div>
+  <div id="mainContent">
+    <p>&nbsp;</p>
+    <table cellspacing="0" cellpadding="0" class="">
+      <tr>
+        <td valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tbody>
+            <tr>
+              <td class="EON_POPS_OliveBox04T" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td class="EON_POPS_OliveBox04TitleTD"><span id="dnn_ctr_dnnTITLE_lblTitle" class="EON_POPS_OliveBox04Title"><strong>Privacy Statement</strong></span></td>
+                    <td class="EON_POPS_OliveBox04ActionsTD"></td>
+                  </tr>
+                </tbody>
+              </table></td>
+              <td class="EON_POPS_OliveBox04TR" valign="top">&nbsp;</td>
+            </tr>
+          </tbody>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tbody>
+            <tr>
+              <td class="EON_POPS_OliveBox04ML" valign="top">&nbsp;</td>
+              <td class="EON_POPS_OliveBox04M" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td id="dnn_ctr_ContentPane" class="EON_POPS_OliveBox04Content DNNAligncenter" valign="top"><div id="dnn_ctr_ModuleContent"> <br />
+                      <div align="left">
+                        <p><span id="dnn_ctr_Privacy_lblPrivacy" class="Normal"> Korokoro Environmental Group (KEG) is committed to protecting your privacy and developing   technology that gives you the most powerful and safe online experience. This   Statement of Privacy applies to the KoroKoro Enviromental Group website and governs data collection and usage. By using the Korokoro Enviromental Group   website, you consent to the data practices described in this statement.<br />
+                          <br />
+                          <strong>Collection of your Personal Information</strong><br />
+                          <br />
+                          KEG does not collect personally   identifiable information, such as your e-mail address, name, home or work   address or telephone number. 
+ </span></p>
+                        <p><span class="Normal"> There is  information about your computer hardware and   software that is automatically collected by KEG. This information   can include: your IP address, browser type, domain names, access times and   referring Web site addresses. This information is used by KEG for   the operation of the service, to maintain quality of the service, and to   provide general statistics regarding use of the KEG website.<br />
+                          <br />
+                          Please keep in mind that if you directly disclose personally identifiable   information or personally sensitive data through KEG public   message boards, this information may be collected and used by others. Note:   KEG does not read any of your private online communications.<br />
+                          <br />
+                          KEG encourages you to review the privacy statements of websites   you choose to link to from KoroKoro Enviromental Group so that you can understand how   those websites collect, use and share your information. KEG is   not responsible for the privacy statements or other content on websites   outside of the KoroKoro Enviromental Group and KoroKoro Enviromental Group family of Web sites.<br />
+                          <br />
+                          <strong>Use of your Personal Information</strong><br />
+                          <br />
+                          KEGp collects and uses your personal   information to operate the KoroKoro Enviromental Group Web site and deliver the services   you have requested. KoroKoro Enviromental Group also uses your personally identifiable   information to inform you of other products or services available from   KEG and its affiliates. KEGp may also contact you   via surveys to conduct research about your opinion of current services or of   potential new services that may be offered.<br />
+                          <br />
+                          KEG does not sell,   rent or lease its customer lists to third parties. KEG may, from   time to time, contact you on behalf of external business partners about a   particular offering that may be of interest to you. In those cases, your unique   personally identifiable information (e-mail, name, address, telephone number)   is not transferred to the third party. In addition, KEG may share   data with trusted partners to help us perform statistical analysis, send you   email or postal mail, provide customer support, or arrange for deliveries. All   such third parties are prohibited from using your personal information except   to provide these services to KEG, and they are required to   maintain the confidentiality of your information.<br />
+                          <br />
+                          KEG does not   use or disclose sensitive personal information, such as race, religion, or   political affiliations, without your explicit consent.<br />
+                          <br />
+                          KEG keeps   track of the websites and pages our customers visit within KEG ,   in order to determine what KEG services are the most popular.   This data is used to deliver customised content and advertising within   KEG to customers whose behaviour indicates that they are   interested in a particular subject area.<br />
+                          <br />
+                          KEG websites will   disclose your personal information, without notice, only if required to do so   by law or in the good faith belief that such action is necessary to: (a)   conform to the edicts of the law or comply with legal process served on   KoroKoro Enviromental Group or the site; (b) protect and defend the rights or property of   KoroKoro Enviromental Group; and, (c) act under exigent circumstances to protect the   personal safety of users of KoroKoro Enviromental Group, or the public.<br />
+                          <br />
+                          <strong>Use of Cookies</strong><br />
+                          <br />
+                          The KoroKoro Enviromental Group website use &quot;cookies&quot; to help you personalize your   online experience. A cookie is a text file that is placed on your hard disk by   a web page server. Cookies cannot be used to run programs or deliver viruses to   your computer. Cookies are uniquely assigned to you, and can only be read by a   web server in the domain that issued the cookie to you.<br />
+                          <br />
+                          One of the primary   purposes of cookies is to provide a convenience feature to save you time. The   purpose of a cookie is to tell the Web server that you have returned to a   specific page. For example, if you personalize Korokoro Environmental Group pages, or   register with Korokoro Environmental Group site or services, a cookie helps   Korokoro Environmental Group to recall your specific information on subsequent visits.   This simplifies the process of recording your personal information, such as   billing addresses, shipping addresses, and so on. When you return to the same   Korokoro Environmental Group Web site, the information you previously provided can be   retrieved, so you can easily use the Korokoro Environmental Group features that you   customized.<br />
+                          <br />
+                          You have the ability to accept or decline cookies. Most Web   browsers automatically accept cookies, but you can usually modify your browser   setting to decline cookies if you prefer. If you choose to decline cookies, you   may not be able to fully experience the interactive features of the   Korokoro Environmental Group services or Web sites you visit.<br />
+                          <br />
+                          <strong>Security of your Personal Information</strong><br />
+                          <br />
+                          KEG secures your personal information from   unauthorized access, use or disclosure. KEG secures the   personally identifiable information you provide on computer servers in a   controlled, secure environment, protected from unauthorized access, use or   disclosure. </span></p>
+                        <p><span class="Normal"><strong>Changes to this Statement</strong><br />
+                          <br />
+                          KEG will occasionally update this Statement of Privacy to reflect   company and customer feedback. KEG encourages you to periodically   review this Statement to be informed of how KEG is protecting   your information.<br />
+                          <br />
+                          <strong>Contact Information</strong><br />
+                          <br />
+                          KEG welcomes your comments   regarding this Statement of Privacy. If you believe that KEG has   not adhered to this Statement, please contact KoroKoro Enviromental Group. We   will use commercially reasonable efforts to promptly determine and remedy the   problem. </span></p>
+                      </div>
+                    </div></td>
+                  </tr>
+                </tbody>
+              </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+      </tr>
+    </table>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center">
+      <!-- end #mainContent -->
+  </p></div>
+	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+  <div id="footer">
+    <p align="center"><a id="dnn_dnnPRIVACY_hypPrivacy" href="privacystatement.html">Privacy Statement</a>  <strong>|</strong>  <a id="dnn_dnnTERMS_hypTerms" href="termsofuse.html">Terms Of Use</a></p>
+    <div align="center">
+<!-- end #footer -->
+    <a href="http://www.allthatjazz.co.nz/">website created by www.allthatjazz.co.nz</a> </div>
+  </div>
+<!-- end #container --></div>
+</body>
+</html>
